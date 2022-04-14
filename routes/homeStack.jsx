@@ -7,18 +7,18 @@ import Review from "../Screens/Review";
 
 
 
-const screens = {
+const Screens = {
    
     Home : { 
-        screen : Home 
+        screen :  Home 
     },
-    Review : {
-        screen : Review 
-    }, 
+    Reviews : {
+        screen : Review  
+    },  
 
 }
 
 
-const HomeStack = createStackNavigator(screens); 
+const HomeStack = createStackNavigator(Screens);  
 
 export default  createAppContainer(HomeStack);  
